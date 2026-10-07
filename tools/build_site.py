@@ -156,7 +156,7 @@ def page(filename, title, description, body, extra_head="", preload=None):
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://images.unsplash.com">
-  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600;700&amp;family=Frank+Ruhl+Libre:wght@400;500;700&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bellefair&amp;family=Rubik:wght@300..700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">{pre}{extra_head}
 </head>
 <body>
