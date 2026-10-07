@@ -6,12 +6,14 @@
   <title>התפריט | ביסטרו נמל</title>
   <meta name="description" content="התפריט המלא של ביסטרו נמל עם מחירים, פתיחים, דגים ופירות ים, עיקריות, פסטות, קינוחים ושתייה.">
   <meta name="robots" content="noindex, nofollow">
-  <meta name="theme-color" content="#12283b">
+  <meta name="theme-color" content="#0f1d28">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700&amp;family=Frank+Ruhl+Libre:wght@500;700&amp;display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600;700&amp;family=Frank+Ruhl+Libre:wght@400;500;700&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="preload" as="image" href="https://images.unsplash.com/photo-1606850780554-b55ea4dd0b70?auto=format&fit=crop&q=72&w=1800">
 </head>
 <body>
   <a class="skip-link" href="#main">דילוג לתוכן הראשי</a>
@@ -19,14 +21,14 @@
     <div class="container header-inner">
       <a class="brand" href="index.html" aria-label="ביסטרו נמל, לדף הבית">
         <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true" focusable="false">
-  <circle cx="20" cy="20" r="19" fill="#c0623b"/>
-  <circle cx="20" cy="12.5" r="2.6" fill="none" stroke="#fff" stroke-width="2"/>
-  <path d="M20 15v15M14.5 19h11M11 24.5a9 9 0 0 0 18 0" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="20" cy="20" r="18.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <circle cx="20" cy="12.5" r="2.4" fill="none" stroke="currentColor" stroke-width="1.6"/>
+  <path d="M20 15v15M15 19h10M11.5 24.5a8.5 8.5 0 0 0 17 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
 </svg>
         <span class="brand-name">ביסטרו נמל</span>
       </a>
       <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="פתיחה וסגירה של הניווט">
-      <label class="nav-toggle-label" for="nav-toggle" aria-hidden="true"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg></label>
+      <label class="nav-toggle-label" for="nav-toggle" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><line x1="4" y1="7" x2="20" y2="7"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="17" x2="20" y2="17"/></svg></label>
       <nav class="main-nav" aria-label="ניווט ראשי">
         <ul>
           <li><a href="index.html">בית</a></li>
@@ -36,20 +38,16 @@
           <li><a href="contact.html">צור קשר ומשלוחים</a></li>
         </ul>
       </nav>
-      <a class="btn btn-primary btn-sm header-cta" href="tel:037770100"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>הזמנת מקום</a>
+      <a class="btn btn-light btn-sm header-cta" href="tel:037770100">הזמנת מקום</a>
     </div>
   </header>
   <main id="main">
-    <section class="page-hero">
+    <section class="page-hero" style="--bg: url('https://images.unsplash.com/photo-1606850780554-b55ea4dd0b70?auto=format&fit=crop&q=72&w=1800')">
       <div class="container">
         <span class="eyebrow">התפריט</span>
         <h1>התפריט שלנו</h1>
         <p class="lead">מטבח ים תיכוני שמשתנה מעט לפי העונה ולפי מה שהדייגים מביאים. אותו תפריט בכל שלוש המסעדות, וגם במשלוח.</p>
       </div>
-      <svg class="hero-waves" viewBox="0 0 1440 88" preserveAspectRatio="none" aria-hidden="true" focusable="false">
-  <path d="M0 40 C 180 10, 360 70, 540 40 S 900 10, 1080 40 S 1320 70, 1440 40 V90 H0 Z" fill="#ece0c9"/>
-  <path d="M0 58 C 200 30, 400 86, 600 58 S 1000 30, 1200 58 S 1380 80, 1440 60 V90 H0 Z" fill="#f6efe2"/>
-</svg>
     </section>
     <nav class="menu-nav" aria-label="קטגוריות בתפריט">
       <div class="container">
@@ -66,9 +64,10 @@
     </nav>
     <div class="section">
       <div class="container">
+        <div class="menu-sheet">
         <section class="menu-section" id="starters" aria-labelledby="starters-title">
           <div class="menu-section-head"><h2 id="starters-title">פתיחים</h2><p>לחלוק במרכז השולחן</p></div>
-          <ul class="menu-list" role="list">
+          <ul class="menu-list">
           <li class="menu-item">
             <div class="item-head"><h3 class="item-name">פוקאצ׳ת הבית</h3><span class="item-dots" aria-hidden="true"></span><span class="item-price" dir="ltr">32 ₪</span></div>
             <p class="item-desc">מהטאבון, עם שמן זית כתית, מלח ים ושום קונפי<span class="tag tag-vegan">טבעוני</span></p>
@@ -97,7 +96,7 @@
         </section>
         <section class="menu-section" id="salads" aria-labelledby="salads-title">
           <div class="menu-section-head"><h2 id="salads-title">סלטים</h2><p>ירקות מהשוק של הבוקר</p></div>
-          <ul class="menu-list" role="list">
+          <ul class="menu-list">
           <li class="menu-item">
             <div class="item-head"><h3 class="item-name">סלט הנמל</h3><span class="item-dots" aria-hidden="true"></span><span class="item-price" dir="ltr">54 ₪</span></div>
             <p class="item-desc">עלים, עגבניות שרי, מלפפון, צנונית, פטה ושמן זית לימוני<span class="tag tag-veg">צמחוני</span><span class="tag tag-gf">ללא גלוטן</span></p>
@@ -118,7 +117,7 @@
         </section>
         <section class="menu-section" id="seafood" aria-labelledby="seafood-title">
           <div class="menu-section-head"><h2 id="seafood-title">דגים ופירות ים</h2><p>הדגים מגיעים מהדייגים בכל בוקר</p></div>
-          <ul class="menu-list" role="list">
+          <ul class="menu-list">
           <li class="menu-item">
             <div class="item-head"><h3 class="item-name">דניס שלם על הגריל</h3><span class="item-dots" aria-hidden="true"></span><span class="item-price" dir="ltr">118 ₪</span></div>
             <p class="item-desc">דניס שלם, לימון שרוף, שמן זית ותפוחי אדמה צלויים<span class="tag tag-gf">ללא גלוטן</span></p>
@@ -147,7 +146,7 @@
         </section>
         <section class="menu-section" id="mains" aria-labelledby="mains-title">
           <div class="menu-section-head"><h2 id="mains-title">עיקריות</h2><p>מהגריל ומהתנור</p></div>
-          <ul class="menu-list" role="list">
+          <ul class="menu-list">
           <li class="menu-item">
             <div class="item-head"><h3 class="item-name">סטייק אנטריקוט</h3><span class="item-dots" aria-hidden="true"></span><span class="item-price" dir="ltr">158 ₪</span></div>
             <p class="item-desc">300 גרם אנטריקוט מיושן, חמאת עשבים ותפוחי אדמה<span class="tag tag-gf">ללא גלוטן</span></p>
@@ -172,7 +171,7 @@
         </section>
         <section class="menu-section" id="pasta" aria-labelledby="pasta-title">
           <div class="menu-section-head"><h2 id="pasta-title">פסטות</h2><p>פסטה טרייה מהמטבח שלנו</p></div>
-          <ul class="menu-list" role="list">
+          <ul class="menu-list">
           <li class="menu-item">
             <div class="item-head"><h3 class="item-name">לינגוויני פירות ים</h3><span class="item-dots" aria-hidden="true"></span><span class="item-price" dir="ltr">96 ₪</span></div>
             <p class="item-desc">שרימפס, קלמרי ומולים, עגבניות שרי, שום ויין לבן</p>
@@ -193,7 +192,7 @@
         </section>
         <section class="menu-section" id="desserts" aria-labelledby="desserts-title">
           <div class="menu-section-head"><h2 id="desserts-title">קינוחים</h2><p>סיום מתוק</p></div>
-          <ul class="menu-list" role="list">
+          <ul class="menu-list">
           <li class="menu-item">
             <div class="item-head"><h3 class="item-name">מלבי מי ורדים</h3><span class="item-dots" aria-hidden="true"></span><span class="item-price" dir="ltr">34 ₪</span></div>
             <p class="item-desc">מלבי, סירופ מי ורדים, פיסטוקים וקוקוס<span class="tag tag-veg">צמחוני</span><span class="tag tag-gf">ללא גלוטן</span></p>
@@ -214,7 +213,7 @@
         </section>
         <section class="menu-section" id="drinks" aria-labelledby="drinks-title">
           <div class="menu-section-head"><h2 id="drinks-title">שתייה ויין</h2><p>משקאות קלים, קפה, בירה ויין</p></div>
-          <ul class="menu-list" role="list">
+          <ul class="menu-list">
           <li class="menu-item">
             <div class="item-head"><h3 class="item-name">לימונדה נענע</h3><span class="item-dots" aria-hidden="true"></span><span class="item-price" dir="ltr">18 ₪</span></div>
             <p class="item-desc">לימונים סחוטים, נענע וקרח<span class="tag tag-vegan">טבעוני</span><span class="tag tag-gf">ללא גלוטן</span></p>
@@ -245,12 +244,14 @@
           </li>
           </ul>
         </section>
-        <div class="legend" aria-label="מקרא">
-          <span><span class="tag tag-vegan">טבעוני</span> ללא מוצרים מן החי</span>
-          <span><span class="tag tag-veg">צמחוני</span> ללא בשר ודגים</span>
-          <span><span class="tag tag-gf">ללא גלוטן</span> המטבח אינו סטרילי מגלוטן</span>
+          <div class="legend" aria-label="מקרא">
+            <span><span class="tag tag-vegan">טבעוני</span> ללא מוצרים מן החי</span>
+            <span><span class="tag tag-veg">צמחוני</span> ללא בשר ודגים</span>
+            <span><span class="tag tag-gf">ללא גלוטן</span> המטבח אינו סטרילי מגלוטן</span>
+          </div>
+          <p class="menu-note">המחירים בשקלים וכוללים מע״מ. אם יש לכם אלרגיה או רגישות למזון, ספרו לנו כשאתם מזמינים.</p>
         </div>
-        <p class="menu-note">המחירים בשקלים וכוללים מע״מ. אם יש לכם אלרגיה או רגישות למזון, ספרו לנו כשאתם מזמינים.</p>
+        <div class="gallery" aria-hidden="true"><figure class="g-item"><img src="https://images.unsplash.com/photo-1619452357216-e88ca8119eeb?auto=format&fit=crop&q=72&w=600&h=600" alt="פוקאצ׳ה מהטאבון" loading="lazy" decoding="async"></figure><figure class="g-item"><img src="https://images.unsplash.com/photo-1672636402078-4b957a572e4e?auto=format&fit=crop&q=72&w=600&h=600" alt="פסטה עם פירות ים" loading="lazy" decoding="async"></figure><figure class="g-item"><img src="https://images.unsplash.com/photo-1599021419847-d8a7a6aba5b4?auto=format&fit=crop&q=72&w=600&h=600" alt="סלט עם עגבניות" loading="lazy" decoding="async"></figure><figure class="g-item"><img src="https://images.unsplash.com/photo-1519915028121-7d3463d20b13?auto=format&fit=crop&q=72&w=600&h=600" alt="טארט לימון" loading="lazy" decoding="async"></figure></div>
       </div>
     </div>
 
@@ -258,8 +259,12 @@
   <footer class="site-footer">
     <div class="container">
       <div class="footer-grid">
-        <div>
-          <h2>ביסטרו נמל</h2>
+        <div class="footer-brand">
+          <a class="brand" href="index.html"><svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true" focusable="false">
+  <circle cx="20" cy="20" r="18.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <circle cx="20" cy="12.5" r="2.4" fill="none" stroke="currentColor" stroke-width="1.6"/>
+  <path d="M20 15v15M15 19h10M11.5 24.5a8.5 8.5 0 0 0 17 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+</svg><span class="brand-name">ביסטרו נמל</span></a>
           <p>מטבח ים תיכוני על קו המים. דגים טריים, ירקות מהשוק ויין טוב, בשלושה נמלים לאורך החוף.</p>
         </div>
         <div>
